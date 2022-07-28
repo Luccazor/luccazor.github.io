@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Assistant:400,700");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+
+    font-family: "Assistant", Arial, Helvetica, sans-serif;
+    background: 	black;
+    color: #00a000;
+}
+
+a {
+    text-decoration: none;
+    color: #00a000;
+}
+
+p::after, h2::after{
+    content: '|';
+    margin-left: 5px;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+#menu-corpo {
+    padding: 0%;
+margin: 5% 45%;
+}
+
+
+#container {
+    width: 100%;
+}
+
+#ab-me {
+    width: 100%;
+    height: 400px;
+    margin-top: 300px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background: black;
+}
+
+#ab-me img {
+    top: -150px;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+#ab-content {
+    padding-top: 130px;
+    text-align: center;
+}
+
+#ab-name {
+    font-size: 70px;
+}
+
+#ab-location {
+    font-size: 20px;
+}
+
+#ab-description {
+    padding: 20px;
+    font-size: 22px;
+}
+
+#skills {
+    padding-top: 100px;
+    padding-bottom: 80px;
+    text-align: center;
+    background: black;
+}
+
+#skills h2 {
+    font-size: 45px;
+}
+
+#skill-p {
+    margin-left: 30%;
+    font-size: 23px;
+}
+
+#skills div {
+    padding-top: 40px;
+}
+
+#skills img {
+    width: 100px;
+    height: 100px;
+    padding: 15px;
+}
+
+#projects {
+    margin-top: 150px;
+}
+
+#projects h2 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#cards {
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 300px;
+    height: 250px;
+    margin: 30px;
+    padding: 35px;
+
+    box-sizing: border-box;
+
+    background: whitesmoke;
+}
+
+.card:hover {
+    transition: .5s;
+    background: rgb(24, 54, 66);
+}
+
+.card h3 {
+    font-size: 20px;
+}
+
+.card p {
+    padding-top: 20px;
+    font-size: 16px;
+}
+
+
+#footer-icons {
+    text-align: center;
+}
+
+#footer-icons .fab {
+    padding: 10px;
+
+    font-size: 22px;
+    color: rgba(213, 221, 224, .6);
+}
+
