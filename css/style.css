@@ -7,7 +7,6 @@
 
 body {
     width: 100%;
-
     font-family: "Assistant", Arial, Helvetica, sans-serif;
     background: 	black;
     color: #00a000;
@@ -32,12 +31,6 @@ p::after, h2::after{
         opacity: 0;
     }
 }
-
-#menu-corpo {
-    padding: 0%;
-margin: 5% 45%;
-}
-
 
 #container {
     width: 100%;
@@ -86,7 +79,7 @@ margin: 5% 45%;
     background: black;
 }
 
-#skills h2 {
+#skills h1 {
     font-size: 45px;
 }
 
@@ -121,40 +114,41 @@ margin: 5% 45%;
     flex-wrap: wrap;
 }
 
-.card {
-    width: 300px;
-    height: 250px;
-    margin: 30px;
-    padding: 35px;
-
-    box-sizing: border-box;
-
-    background: whitesmoke;
+#cards {
+    padding-top: 470px;
 }
 
-.card:hover {
-    transition: .5s;
-    background: rgb(24, 54, 66);
+#card-git {
+    width: 50px;
 }
 
-.card h3 {
-    font-size: 20px;
+#card-twitter {
+    width: 50px;
 }
 
-.card p {
-    padding-top: 20px;
-    font-size: 16px;
+#menu-corpo {
+    padding: 10px 42%;
+    margin-bottom: 0 100px;
 }
 
-
-#footer-icons {
-    text-align: center;
+.menu-index {
+    padding: 0 10px;
+    font-size: large;
+    background: white;
+    border-radius: 5px;
 }
 
-#footer-icons .fab {
-    padding: 10px;
-
-    font-size: 22px;
-    color: rgba(213, 221, 224, .6);
+.menu-skills {
+    padding: 0 10px;
+    font-size: large;
+    background: white;
+    border-radius: 5px;
 }
 
+.menu-projects{
+    margin: auto;
+    padding: 0 10px;
+    font-size: large;
+    background: white;
+    border-radius: 5px;
+}

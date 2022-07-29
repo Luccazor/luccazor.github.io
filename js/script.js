@@ -16,11 +16,12 @@ document.querySelectorAll('[seletor]').forEach(link => {
           
         setTimeout(function(){
             elemento.innerHTML += letra;
-        }, 75 * i)
+        }, 90 * i)
     
       });
     }
     const titulo = document.querySelector('p');
+    const titulo1 = document.querySelector('#ab-description');
     
     typeWrite(titulo);
-    
+    typeWrite(titulo1);
