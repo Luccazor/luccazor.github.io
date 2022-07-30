@@ -152,3 +152,18 @@ p::after, h2::after{
     background: white;
     border-radius: 5px;
 }
+
+#projeto1 img {
+    position: absolute;
+    width: 40%;
+    height: 15%;
+    left: 30%;
+    top: 40%;
+    border-radius: 178.5px;
+}
+
+#projeto1 p {
+    position: absolute;
+    bottom: 30%;
+    left: 35%;
+}
