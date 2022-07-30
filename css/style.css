@@ -129,27 +129,42 @@ p::after, h2::after{
 #menu-corpo {
     padding: 10px 42%;
     margin-bottom: 0 100px;
+    width: 16%;
+    height: 25px;
+    background: #00a000;
+    border-radius: 153px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .menu-index {
-    padding: 0 10px;
+    position: absolute;
+    padding: 4px;
+    top: 6px;
+    left: 42%;
     font-size: large;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
 .menu-skills {
-    padding: 0 10px;
+    position: absolute;
+    padding: 4px;
+    left: 647px;
+    top: 6px;
     font-size: large;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
 .menu-projects{
-    margin: auto;
-    padding: 0 10px;
+    position: absolute;
+    left: 700px;
+    padding: 4px;
+    top: 6px;
     font-size: large;
-    background: white;
+    background: rgb(0, 0, 0);
     border-radius: 5px;
 }
 
