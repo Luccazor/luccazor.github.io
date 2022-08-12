@@ -7,7 +7,7 @@ document.querySelectorAll('[seletor]').forEach(link => {
                 .then(resp => resp.text())
                 .then(html => container.innerHTML = html)
         }
-    })
+    });
 
     function typeWrite(elemento){
         const textoArray = elemento.innerHTML.split('');
