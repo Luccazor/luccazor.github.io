@@ -18,7 +18,7 @@ a {
 }
 
 p::after, h2::after{
-    content: '|';
+    content: '...';
     margin-left: 5px;
     animation: blink 0.7s infinite;
 }
@@ -144,14 +144,15 @@ p::after, h2::after{
 #menu-corpo ul li a {
     color: rgb(0, 0, 0);
     text-decoration: none;
-    padding: 20px;
+    padding: 13px;
     display: inline-block;
+    transition: background .4s;
 }
 
 #menu-corpo ul a:hover {
     background-color: green;
     text-decoration: none;
-    padding: 20px;
+    padding: 13px;
     display: inline-block;
 }
 
