@@ -107,18 +107,18 @@ p::after, h2::after{
     text-align: center;
 }
 
-#cards {
-    padding-top: 60px;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+#cards a{
+    position: absolute;
+    text-align: center;
+    display: inline;
+    padding-top: 460px;
+    left: 45%;
 }
 
-#cards {
-    padding-top: 470px;
-}
 
 #card-git {
+    position: absolute;
+    left: 50px;
     width: 50px;
 }
 
@@ -132,11 +132,12 @@ p::after, h2::after{
     background-color: rgb(4, 255, 16);
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
+    text-align: center;
 }
 
 
 #menu-corpo li {
-
+    text-align: center;
     display: inline;
 }
 
@@ -145,7 +146,6 @@ p::after, h2::after{
     text-decoration: none;
     padding: 20px;
     display: inline-block;
-    transition: background .6s;
 }
 
 #menu-corpo ul a:hover {
@@ -154,13 +154,6 @@ p::after, h2::after{
     padding: 20px;
     display: inline-block;
 }
-
-#menu-h li {
-    padding-left: 230px;
-}
-
-
-
 
 #projeto1 img {
     position: absolute;
